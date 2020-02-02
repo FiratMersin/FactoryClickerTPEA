@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/resourceImage"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="5dp"
+        android:contentDescription="@string/resourceimg" />
+
+    <TextView
+        android:id="@+id/lblNumberOfResource"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:text="@string/_1000"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/ingredient1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_weight="0.2"
+        android:contentDescription="@string/ingredient1" />
+
+    <TextView
+        android:id="@+id/nbIngr1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1"
+        android:text="@string/_0" />
+
+    <ImageView
+        android:id="@+id/ingredient2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_weight="0.2"
+        android:contentDescription="@string/ingredient2" />
+
+    <TextView
+        android:id="@+id/nbIngr2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1"
+        android:text="@string/_0" />
+
+    <ImageView
+        android:id="@+id/ingredient3"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_weight="0.2"
+        android:contentDescription="@string/ingredient3" />
+
+    <TextView
+        android:id="@+id/nbIngr3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1"
+        android:text="@string/_0" />
+
+    <ImageView
+        android:id="@+id/ingredient4"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_weight="0.2"
+        android:contentDescription="@string/ingredient4"/>
+
+    <TextView
+        android:id="@+id/nbIngr4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1"
+        android:text="@string/_0" />
+
+</LinearLayout>

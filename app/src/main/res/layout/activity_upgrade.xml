@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorOrangeDark"
+    android:id="@+id/activity_upgrade">
+
+
+    <LinearLayout
+        android:id="@+id/restartPriceLay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        android:orientation="horizontal"
+        android:layout_below="@+id/restartText"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:id="@+id/restartLay1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/restartImg1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                app:srcCompat="@mipmap/ic_image_cable" />
+
+            <TextView
+                android:id="@+id/restartText1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/_0" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/restartLay2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/restartImg2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                app:srcCompat="@mipmap/ic_image_cable" />
+
+            <TextView
+                android:id="@+id/restartText2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/_0" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/restartLay3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/restartImg3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                app:srcCompat="@mipmap/ic_image_cable" />
+
+            <TextView
+                android:id="@+id/restartText3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/_0" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/restartLay4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/restartImg4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                app:srcCompat="@mipmap/ic_image_cable" />
+
+            <TextView
+                android:id="@+id/restartText4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/_0" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/restartText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/RestartTxt"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/iuButton"/>
+
+    <Button
+        android:id="@+id/buttonRestart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/prestige"
+        android:layout_below="@id/restartPriceLay"
+        android:layout_centerHorizontal="true"/>
+
+
+    <LinearLayout
+        android:id="@+id/iuPriceLay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        android:orientation="horizontal"
+        android:layout_below="@+id/iuTextInfo"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:id="@+id/iuLay1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/iuImg1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                app:srcCompat="@mipmap/ic_image_cable" />
+
+            <TextView
+                android:id="@+id/iuText1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/_0" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/iuLay2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/iuImg2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                app:srcCompat="@mipmap/ic_image_cable" />
+
+            <TextView
+                android:id="@+id/iuText2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/_0" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/iuLay3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/iuImg3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                app:srcCompat="@mipmap/ic_image_cable" />
+
+            <TextView
+                android:id="@+id/iuText3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/_0" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/iuLay4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/iuImg4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                app:srcCompat="@mipmap/ic_image_cable" />
+
+            <TextView
+                android:id="@+id/iuText4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/_0" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/iuTextInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/UpgradeInventory"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/iuButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iuPriceLay"
+        android:layout_centerHorizontal="true"
+        android:text="@string/Upgrade" />
+
+    <ImageButton
+        android:id="@+id/closeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        app:srcCompat="@android:drawable/ic_menu_close_clear_cancel" />
+
+    <TextView
+        android:id="@+id/txtObj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonRestart"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="@string/txtObj" />
+
+    <TextView
+        android:id="@+id/tvObj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_0"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/txtObj"
+        android:layout_toRightOf="@id/LayObj"/>
+
+    <ProgressBar
+        android:id="@+id/progressBarObj"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="240dp"
+        android:layout_height="50dp"
+        android:layout_toRightOf="@id/LayObj"
+        android:layout_below="@id/tvObj"/>
+
+    <Button
+        android:id="@+id/btnLoad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/LayObj"
+        android:text="Load" />
+
+    <LinearLayout
+        android:id="@+id/LayObj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/buttonRestart">
+
+        <ImageView
+            android:id="@+id/ivObj"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@mipmap/ic_image_cable" />
+
+        <TextView
+            android:id="@+id/tvObjResource"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/_0" />
+    </LinearLayout>
+
+
+</RelativeLayout>
